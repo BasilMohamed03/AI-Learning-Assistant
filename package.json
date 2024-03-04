@@ -1,0 +1,19 @@
+{
+  "name": "ai-powered-larning-assistant-for-personalized-learning",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "main": "",
+  "license": "ISC",
+  "keywords": [],
+  "author": "Mohamed Hesham <mohamed.aboelgoud.mh@gmail.com> (https://www.linkedin.com/in/mohamed-hesham-428a691b8/)",
+  "scripts": {
+    "install": "concurrently \"cd ./server && yarn install\" \"cd ./client && yarn install\"",
+    "start": "concurrently \"cd ./server && yarn start\" \"cd ./client && yarn start\"",
+    "delete-modules": "rm -r ./node_modules && cd ./server && rm -r ./node_modules && cd ../client && rm -r ./node_modules",
+    "dev": "concurrently \"cd ./server && yarn dev\" \"cd ./client && yarn dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}

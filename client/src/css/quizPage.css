@@ -1,0 +1,34 @@
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  background-color: white;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 5px solid black; /* Add a black border */
+}
+
+.header {
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1cm;
+  border-bottom: 1px solid #0c0b0b;
+}
+
+.header img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.content {
+  height: 75%;
+  padding: 1cm;
+}
+
+.print-button {
+  text-align: center;
+}
+  

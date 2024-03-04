@@ -1,0 +1,30 @@
+{
+  "name": "virtual-assistant-backend",
+  "version": "1.0.0",
+  "description": "Backend for the virtual assistant app",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js --ext js"
+  },
+  "author": "Mohamed Hesham <mohamed.aboelgoud.mh@gmail.com>",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^0.0.10",
+    "child_process": "^1.0.2",
+    "console": "^0.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "elevenlabs-node": "^1.2.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.0.73",
+    "mongoose": "^8.1.2",
+    "openai": "^4.14.2",
+    "pdf-parse": "^1.1.1",
+    "rhubarb-js": "^1.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
