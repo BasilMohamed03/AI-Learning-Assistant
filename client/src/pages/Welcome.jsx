@@ -1,4 +1,5 @@
 import ThemeToggle from '../components/ThemeToggle';
+import { Link } from 'react-router-dom';
 function Welcome() {
 
 return(
@@ -10,16 +11,16 @@ return(
             <ThemeToggle/>
             </div>
             <div className=" mr-8">
-            <a href="/SignIn"
+            <Link to="/SignIn"
                 className="self-start px-3 py-2 leading-none text-gray-800 dark:text-gray-200 border border-gray-300 dark:border-gray-800 rounded-lg focus:outline-none hover:bg-slate-200 bg-gray-100 dark:bg-gradient-to-b hover:from-indigo-500 from-gray-900 to-black">
                 Sign In
-            </a>
+            </Link>
             </div>
             <div>
-            <a href="/SignUp"
+            <Link to="/SignUp"
                 className="self-start px-3 py-2 leading-none dark:text-gray-200 border border-gray-300 dark:border-gray-800 rounded-lg focus:outline-none  hover:bg-slate-200 bg-gray-100 dark:bg-gradient-to-b hover:from-indigo-500 from-gray-900 to-black">
                 Sign Up
-            </a>
+            </Link>
             </div>
 
         </div>

@@ -1,8 +1,9 @@
-[{
+[
+    {
         "id": 1,
-        "name": "The Queen's Gambit",
+        "name": "DataMining",
         "description": "Data mining is a process of analyzing large volumes of data to discover patterns, relationships, and valuable insights that can inform decision-making. It involves the use of various techniques and algorithms to sift through extensive datasets, uncover hidden trends, and extract meaningful information. The goal of data mining is to transform raw data into actionable knowledge, helping organizations make informed decisions, identify opportunities, and gain a deeper understanding of their data. Common applications include business intelligence, predictive analysis, customer relationship management, and fraud detection across diverse industries.",
-        "image": "https://cdn.discordapp.com/attachments/1061064252451995689/1188395292417077319/20231224_101752.jpg?ex=659a5e5d&is=6587e95d&hm=5c241c1c7054a61e4f765d3f1a08536af19f7b9afb7d67ac9e550c6a0d1f339e&",
+        "image": "/src/images/data minig .jpg",
         "detailimage": "https://wallpaperaccess.com/full/3959321.png",
         "movietextimage": "https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/tx1O544a9T7n8Z_G12qaboulQQE/AAAABcKrFBGTCBvScMtWc-og890uVGAY17bX1Ubji7aF45di0ImJWVrTpv3uMzv7A_Ka113nAT8MKrcF7NbCgmlsZuXrWapkT68Qoq9B92KjEGxv_l-OTBIwV5t5DjxFPn9AaiB18Bsh76OyFJaNdJKWOKK9xWR9kQllQ_qMx9_dKO_QsA.png?r=a7f",
         "trailerimage": "https://occ-0-3890-3466.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcL2iWNIx4vi4cc0PT0PTlMcuXiOrJcg0UujHyeug-6AETl6AmELWTiRI0nzrJ4MyTI-mPSFzuSnLTH63iJyJxMIVp5M.jpg?r=038"
@@ -10,46 +11,77 @@
     },
     {
         "id": 2,
-        "name": "The Walking Dead",
+        "name": "Computer graphics",
         "description": "Computer graphics involves creating and manipulating visual images using computers. It includes 2D graphics for tasks like graphic design and 3D graphics for applications such as gaming and virtual reality. Key aspects include rendering, modeling, animation, and texturing. Computer graphics find applications in various industries, from entertainment to design and education, contributing to the creation of realistic and interactive visual content.",
-        "image": "https://cdn.discordapp.com/attachments/1061064252451995689/1188170238102098021/computer_graphics.jpg?ex=65998cc3&is=658717c3&hm=91e81bf3b5776a17503394a8ecc64be31e33807ef4278c7d102085fc8595eb07&",
+        "image": "/src/images/computer graphics.jpg",
         "detailimage": "https://th.bing.com/th/id/R.55ee1d11a6a40253c9cf2453c0eff589?rik=Wr86KAV0%2fQP%2fKA&riu=http%3a%2f%2f4.bp.blogspot.com%2f-GiUYZz-3vWI%2fTdic7ItT5eI%2fAAAAAAAADJc%2fE7Wpc7P2ULQ%2fs1600%2fc%2bg%2bart%2b1%2b%25252833%252529.jpg&ehk=KeB9DggUFhUxCEMydkUZc5w%2fIDmUtVPXtFKev2FT2yk%3d&risl=&pid=ImgRaw&r=0"
     },
     {
         "id": 3,
-        "name": "Squid Game",
+        "name": "Machine Learning",
         "description": "Machine Learning (ML) is a branch of artificial intelligence (AI) that empowers computers to learn from data and make decisions without explicit programming. ML algorithms use training data to recognize patterns, improving their performance over time. There are various types of ML, including supervised, unsupervised, and reinforcement learning. ML finds applications in diverse fields such as image recognition, natural language processing, healthcare, and recommendation systems, contributing to advancements in automation and problem-solving.",
-        "image": "https://cdn.discordapp.com/attachments/1061064252451995689/1188170237015760906/machine_learning.jpg?ex=65998cc3&is=658717c3&hm=a759449f0994577ffe925ad98709c94cb11a89c057457816dcbbe13b5827de89&",
+        "image": "/src/images/machine learning.jpg",
         "detailimage": "https://th.bing.com/th/id/R.27f8d8d769db0b6d19928e3db87c5838?rik=%2fJLylTi8wnt6fw&pid=ImgRaw&r=0"
         
     },
     {
         "id": 4,
-        "name": "Baby Driver",
+        "name": "Statistical methods",
         "description": "Statistical methods involve using mathematical techniques to analyze and interpret data. These methods include descriptive statistics, inferential statistics, regression analysis, probability distributions, experimental design, and sampling techniques. They are applied across diverse fields to summarize data, make predictions, and draw reliable conclusions.",
-        "image": "https://cdn.discordapp.com/attachments/1061064252451995689/1188170237720403968/statistical_methods.jpg?ex=65998cc3&is=658717c3&hm=933ac719fab6bfd2ceb5960f8e8c771bdca354b8fd9b45357e0e45004bc072d5&",
+        "image": "/src/images/statistical methods.jpg",
         "detailimage": "https://learn.g2.com/hubfs/types%20of%20stats@2x.png"
     },
     {
         "id": 5,
-        "name": "Esaretin Bedeli",
+        "name": "Software engineering",
         "description": "Software engineering is the systematic application of engineering principles to design, develop, test, and maintain software. It involves the disciplined and structured approach to software development, encompassing methodologies, tools, and best practices to ensure the creation of reliable and efficient software systems.",
-        "image": "https://cdn.discordapp.com/attachments/1061064252451995689/1188170237363884114/software_engineer.jpg?ex=65998cc3&is=658717c3&hm=5daa4d5bcbb842abbb8c9820591088b42ca25c362cfcc71ad0471ed9873adbaf&",
+        "image": "/src/images/software engineer.jpg",
         "detailimage": "https://wallpaperbat.com/img/342813-why-are-requirements-important-in-software-engineering.jpg"
     },
     {
         "id": 6,
-        "name": "Control Z",
+        "name": "Logic design",
         "description": "Logic design involves creating circuits and systems using logical gates and digital components to perform specific functions. It focuses on designing the structure and organization of digital circuits to achieve desired outcomes. Logic design is fundamental to the development of electronic devices and computer systems, ensuring efficient and reliable information processing through logical operations.",
-        "image": "https://cdn.discordapp.com/attachments/1061064252451995689/1188170236696989837/logic_design_.jpg?ex=65998cc3&is=658717c3&hm=884c554ec91c2b6c098135c7e58983bbb9511eac6992308f8a9e6be024e27169&",
+        "image": "/src/images/logic design .jpg",
         "detailimage": "https://th.bing.com/th/id/R.6006bba6cc322e0dcb5d55c7611d7129?rik=MvtBYHR0c3GoMQ&pid=ImgRaw&r=0"
        
     },
     {
         "id": 7,
-        "name": "Shiny_Flakes: 19'unda Uyuşturucu Baronu",
+        "name": "DataBase",
         "description": "A database is a structured collection of data organized for efficient storage, retrieval, and management. It serves as a central repository where information can be easily accessed, updated, and queried by users or applications. Databases are fundamental for storing and organizing data in various systems, ranging from simple file systems to complex relational databases used in business and technology.",
-        "image": "https://cdn.discordapp.com/attachments/1061064252451995689/1188170238815117434/DataBase.jpg?ex=65998cc4&is=658717c4&hm=1797754408aa5f63bba39fa0551b98f516319750f6b078d95481a2d075339559&",
+        "image": "/src/images/Database.jpg",
         "detailimage": "https://wallpaperaccess.com/full/4172472.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Add Book",
+        "image": "/src/images/Database.jpg"
+        
+    },
+    {
+        "id": 8,
+        "name": "Add Book",
+        "image": "/src/images/Database.jpg"
+        
+    },
+    {
+        "id": 8,
+        "name": "Add Book",
+        "image": "/src/images/Database.jpg"
+        
+    },
+    {
+        "id": 8,
+        "name": "Add Book",
+        "image": "/src/images/Database.jpg"
+        
+    },
+    {
+        "id": 8,
+        "name": "Add Book",
+        "image": "/src/images/Database.jpg"
+        
     }
+ 
 ]

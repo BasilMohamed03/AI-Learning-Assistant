@@ -8,6 +8,7 @@ import Banner from '../partials/Banner';
 import Slider from "../components/BooksSlider";
 import movies from "../data.json";
 import "../css/style.css";
+import AddBook from './AddBook';
 
 
 function Dashboard() {
@@ -19,7 +20,7 @@ function Dashboard() {
       {/* Sidebar */}
       <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       {/* Content area */}
-      <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
+      <div className="relative  flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
         {/*  Site header */}
         <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
@@ -35,6 +36,7 @@ function Dashboard() {
                   {movies.reverse().map((movie, index) => (
                     <Slider.Item movie={movie} key={index}></Slider.Item>
                   ))}
+                  <AddBook/>
                 </Slider>
               </div>
 

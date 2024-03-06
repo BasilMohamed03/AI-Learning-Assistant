@@ -6,7 +6,7 @@
 
 .slider__container {
   display: flex;
-  padding: 0 10px;
+  padding: 0px 10px;
   transition: transform 300ms ease 100ms;
   /* z-index: auto */
   width: 100%;
@@ -33,6 +33,6 @@
 
 @media (min-width: 1024px) {
   .slider__container {
-    padding: 0 55px;
+    padding: 0 55px ;
   }
 }

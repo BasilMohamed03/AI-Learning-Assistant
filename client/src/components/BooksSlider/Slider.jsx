@@ -34,6 +34,7 @@ const Slider = ({ children, activeSlide, zindex, title }) => {
 
   return (
     <div>
+        
       <SliderContext.Provider value={contextValue}>
         <SliderWrapper>
           <div
@@ -42,12 +43,12 @@ const Slider = ({ children, activeSlide, zindex, title }) => {
               "slider--open": currentSlide != null,
             })}
           >
-            {title ? (
+            {title ?  (
               <div className="flex text-xs sm:text-sm md:text-lg  absolute top-[-40px]   text-slate-800 dark:text-slate-100 font-netflixsansmedium  group  items-center pr-5 left-3  lg:left-14">
                 <div className="relative flex flex-row items-center justify-center w-full">
                   <span>{title ? title : ""}</span>
                   <span className=" -rotate-90 group-hover:visible group-hover:translate-x-[6.5rem] group-hover:translate-y-0.5   transition-all duration-1000 ">
-                    <DownArrowIcon className="w-5 h-5 group-hover:w-3 group-hover:h-3 fill-white" />
+                    <DownArrowIcon className="w-5 h-5  group-hover:h-3 fill-white" />
                   </span>
 
                   <span className="text-xs  transition-all duration-1000  translate-y-0.5 invisible opacity-0   group-hover:opacity-100 group-hover:visible -translate-x-5 group-hover:translate-x-1">
